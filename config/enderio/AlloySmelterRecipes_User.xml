@@ -28,9 +28,9 @@ ore dictionary.
 
 <!--
 
-#===================
-# EXP Ragne
-#===================
+===================
+ EXP Ragne
+===================
 
 gold=1
 iron=0.7
@@ -38,17 +38,17 @@ food=0.35
 sand/cobble/wood=0.1
 
 
-#===================
-# Debug
-#===================
+===================
+ Debug
+===================
 
   <dumpRegistry modObjects="true"/>
   <dumpRegistery oreDictionary="true"/>
 
 
-#===================
-# Sample Code
-#===================
+===================
+ Sample Code
+===================
 
 <itemStack oreDictionary=""/>
 <itemStack modID="" itemName="" itemMeta="" number="" exp=""/>
@@ -70,9 +70,6 @@ sand/cobble/wood=0.1
 -->
 
 <AlloySmelterRecipes>
-
-  <dumpRegistry modObjects="true"/>
-  <dumpRegistery oreDictionary="true"/>
 
   <!-- Ender IO -->
   <!-- Dark Tool/Armor -->
@@ -141,7 +138,7 @@ sand/cobble/wood=0.1
       </output>
     </recipe>
     
-  <recipeGroup/>
+  </recipeGroup>
   
   <!-- Vanilla -->
   <!-- Gold Tool/Armor -->
@@ -228,7 +225,7 @@ sand/cobble/wood=0.1
       </output>
     </recipe>
     
-  <recipeGroup/>
+  </recipeGroup>
   
   <!-- Iron Tool/Armor/etc -->
   <recipeGroup name="MC Dec Iron Stuff">
@@ -323,7 +320,7 @@ sand/cobble/wood=0.1
       </output>
     </recipe>
     
-  <recipeGroup/>
+  </recipeGroup>
   
   <!-- Thaumium Tool/Armor -->
   <recipeGroup name="TC4 Dec Thaumium Staff">
@@ -409,9 +406,7 @@ sand/cobble/wood=0.1
       </output>
     </recipe>
   
-  <recipeGroup/>
-  
-  <vanillaFurnaceRecipes enabled="false"/>
+  </recipeGroup>
   
 </AlloySmelterRecipes>
 
