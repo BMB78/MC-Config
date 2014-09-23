@@ -13,7 +13,6 @@ Minecraft/Modで使用するカスタマイズしたコンフィグファイル�
 ## 環境
 * Minecraft : 1.7.10
 * Forge : 1208
-
 * EnderIO : v2.1.0 Beta Build34
 * Minetweaker : v3.0.8B
 * CoFHCore : v3.0.0 Beta6 Build32
