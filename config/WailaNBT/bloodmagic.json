@@ -1,0 +1,11 @@
+{
+    ".*":{
+        "containerAltar":{
+            "Amount":"Life Essence",
+            "capacity":"Capacity",
+            "progress":"LP proceed",
+            "liquidRequired":"LP required"
+        }
+    }
+}
+

@@ -1,0 +1,88 @@
+# Dynamic Recipe Definition file
+# Any line that starts with a hash is a comment and won't be processed by BCMod
+# Shapeless recipe definitions use the format: input items > output item
+# Shaped recipe definitions use the format: input items > output item | pattern
+# Smelting recipe definitions use the format: smelt input > output
+# input items must be between 1 and 9 items, separated by + symbols
+# An 'item' consists of an item id, an optional item count and an optional metadata/damage value
+# if the item count is provided it must come before the item id and be followed by an 'x', e.g 4xminecraft:dirt = 4 dirt blocks
+# if the metadata/damage is provided it must come after the item id and be preceded by a ':', e.g minecraft:wool:5 = lime wool
+# The output item can be given custom data by following it with a json representation of an nbt tag
+# When used as an output '3xminecraft:wool:5 {display:{Name:"Grass"}' would create 3 lime wool named 'Grass'
+# When used as an input for a shapeless recipe 3xminecraft:wool:5 is equivalent to minecraft:wool:5 + minecraft:wool:5 + minecraft:wool:5
+# When used as an input you may use * as a metadata value to include all possible values, eg minecraft:wool:* = any color of wool
+# The pattern for a shaped recipe must be a sequence of 1, 4 or 9 numbers, each number indicates which item to put where
+# minecraft:wool:5 + minecraft:dirt:0 > 8xminecraft:wool:12 | 111121111 defines a recipe for a dirt block surrounded by lime wool outputting 8 brown wool
+# You can have empty spaces in your pattern by using 0, so the recipe for a torch would be represented as minecraft:stick:0 + minecraft:coal:0 > 4xminecraft:torch:0 | 1020
+# Any recipe can be disabled (including vanilla recipes and most recipes from other mods) by beginning a recipe definition with a ! symbol
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:13 > minecraft:dye:2
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:10 > minecraft:dye:5
+
+1xbalancedexchange:amulet:* + 1xminecraft:iron_ingot:* > 10xbalancedexchange:reactivity_block:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:8 > minecraft:dye:7
+
+minecraft:iron_ingot:* + balancedexchange:reactivity_block:* + minecraft:ender_pearl:* > balancedexchange:core_upgrade:0 | 121232121
+
+minecraft:iron_ingot:* + minecraft:bucket:* + minecraft:lava_bucket:* + minecraft:ender_pearl:* + minecraft:water_bucket:* + minecraft:dirt:* > balancedexchange:amulet:0 | 121345161
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:1 > minecraft:dye:14
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:9 > minecraft:dye:6
+
+1xbalancedexchange:amulet:* + 8xminecraft:iron_ingot:* > minecraft:gold_ingot:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:4 > minecraft:dye:11
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:5 > minecraft:dye:10
+
+1xbalancedexchange:amulet:* + 1xminecraft:gold_ingot:* > 8xminecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 8xminecraft:log:* > minecraft:iron_ingot:0
+
+minecraft:gold_ingot:* + minecraft:bucket:* + minecraft:lava_bucket:* + minecraft:ender_eye:* + minecraft:water_bucket:* + minecraft:dirt:* > balancedexchange:amulet_restorer:0 | 121345161
+
+1xbalancedexchange:amulet:* + 4xminecraft:diamond:* > balancedexchange:stability_block:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:7 > minecraft:dye:8
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:14 > minecraft:dye:1
+
+1xbalancedexchange:amulet:* + 1xbalancedexchange:stability_block:* > 4xminecraft:diamond:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:15 > minecraft:dye:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:11 > minecraft:dye:4
+
+balancedexchange:stability_block:* + minecraft:hopper:* + balancedexchange:transmutation_chest:* > balancedexchange:precharger_upgrade:0 | 001232220
+
+balancedexchange:reactivity_block:* + balancedexchange:stability_block:* > balancedexchange:chain_upgrade:0 | 121212121
+
+1xbalancedexchange:amulet:* + 1xminecraft:diamond:* > 4xminecraft:gold_ingot:0
+
+balancedexchange:stability_block:* + balancedexchange:reactivity_block:* > balancedexchange:area_upgrade:0 | 121212121
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:6 > minecraft:dye:9
+
+balancedexchange:reactivity_block:* + balancedexchange:stability_block:* > balancedexchange:productivity_upgrade:0 | 111121111
+
+minecraft:planks:* + balancedexchange:amulet:* > balancedexchange:transmutation_chest:0 | 111121111
+
+1xbalancedexchange:amulet:* + 4xminecraft:gold_ingot:* > minecraft:diamond:0
+
+1xbalancedexchange:amulet:* + 8xminecraft:log2:* > minecraft:iron_ingot:0
+
+balancedexchange:reactivity_block:* + minecraft:glass:* + balancedexchange:stability_block:* + minecraft:ender_pearl:* + balancedexchange:amulet:* > balancedexchange:range_upgrade:0 | 121343151
+
+balancedexchange:stability_block:* + minecraft:ender_pearl:* + balancedexchange:reactivity_block:* > balancedexchange:surveyor_upgrade:0 | 121313323
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:2 > minecraft:dye:13
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:12 > minecraft:dye:3
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:0 > minecraft:dye:15
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:3 > minecraft:dye:12
+

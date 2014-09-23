@@ -1,0 +1,418 @@
+<!-- 
+Custom recipes that will not be over written by Ender IO are added here.
+Examples of recipes can be found in AlloySmelterRecipes_Core.xml and general format
+documentation in SAGMillRecipes_Core/User.
+
+As well as adding custom recipes the operation of the Alloy Smelter as a vanilla furnace 
+can be controlled. It can be disabled completely by simply adding this line:
+
+  <vanillaFurnaceRecipes enabled="false"/>
+
+It is also possible to selectively disable vanilla furnace recipes.
+The following example disables the smelting of iron ingots, ender pearls and any form of iron ore registered in the
+ore dictionary.
+
+  <vanillaFurnaceRecipes>
+  
+    <exclude>
+      <itemStack itemID="265"/>
+      <itemStack itemID="368"/>
+      <itemStack oreDictionary="oreIron"/>
+    </exclude>
+  
+  </vanillaFurnaceRecipes>
+
+  Add this line to disbale the creation of TE alloys using the Alloy Smelter.
+  <recipeGroup name="Thermal Expansion" enabled="false"/>
+-->
+
+<!--
+
+#===================
+# EXP Ragne
+#===================
+
+gold=1
+iron=0.7
+food=0.35
+sand/cobble/wood=0.1
+
+
+#===================
+# Debug
+#===================
+
+  <dumpRegistry modObjects="true"/>
+  <dumpRegistery oreDictionary="true"/>
+
+
+#===================
+# Sample Code
+#===================
+
+<itemStack oreDictionary=""/>
+<itemStack modID="" itemName="" itemMeta="" number="" exp=""/>
+
+  <recipeGroup name="">
+  
+    <recipe name="" energyCost="">
+      <input>
+        <itemStack modID="" itemName="" itemMeta="" number=""/>
+      </input>
+      <output>
+        <itemStack modID="" itemName="" itemMeta="" number="" exp=""/>
+      </output>
+    </recipe>
+    
+  <recipeGroup/>
+
+
+-->
+
+<AlloySmelterRecipes>
+
+  <dumpRegistry modObjects="true"/>
+  <dumpRegistery oreDictionary="true"/>
+
+  <!-- Ender IO -->
+  <!-- Dark Tool/Armor -->
+  <recipeGroup name="EIO Dec Dark Stuff">
+  
+    <recipe name="Dec TheEnder" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_sword"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DarkHelm" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_helmet"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="5" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DarkPlate" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_chestplate"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="8" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DarkLeggins" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_leggings"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="7" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DarkBoots" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_boots"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="4" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DarkPick" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_pickaxe"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DarkAxe" energyCost="4000">
+      <input>
+        <itemStack modID="EnderIO" itemName="item.darkSteel_axe"/>
+      </input>
+      <output>
+        <itemStack modID="EnderIO" itemName="itemAlloy" itemMeta="6" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+    
+  <recipeGroup/>
+  
+  <!-- Vanilla -->
+  <!-- Gold Tool/Armor -->
+  <recipeGroup name="MC Dec Gold Stuff">
+  
+    <recipe name="Dec SwordGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_sword"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec ShovelGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_shovel"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="1" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec PickaxeGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_pickaxe"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec AxeGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_axe"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec HoeGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_hoe"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec HelmGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_helmet"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="5" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec PlateGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_chestplate"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="8" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec LegginsGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_leggings"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="7" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec BootsGold" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="golden_boots"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="gold_ingot" number="4" exp="0.1"/>
+      </output>
+    </recipe>
+    
+  <recipeGroup/>
+  
+  <!-- Iron Tool/Armor/etc -->
+  <recipeGroup name="MC Dec Iron Stuff">
+  
+    <recipe name="Dec SwordIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_sword"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec ShovelIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_shovel"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="1" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec PickaxeIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_pickaxe"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec AxeIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_axe"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec HoeIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_hoe"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec HelmIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_helmet"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="5" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec PlateIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_chestplate"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="8" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec LegginsIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_leggings"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="7" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec BootsIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_boots"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="4" exp="0.1"/>
+      </output>
+    </recipe>
+    
+    <recipe name="Dec DoorIron" energyCost="4000">
+      <input>
+        <itemStack modID="minecraft" itemName="iron_door"/>
+      </input>
+      <output>
+        <itemStack modID="minecraft" itemName="iron_ingot" number="6" exp="0.1"/>
+      </output>
+    </recipe>
+    
+  <recipeGroup/>
+  
+  <!-- Thaumium Tool/Armor -->
+  <recipeGroup name="TC4 Dec Thaumium Staff">
+  
+    <recipe name="Dec SwordThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemSwordThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec ShovelThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemShovelThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="1" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec PickaxeThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemPickThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec AxeThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemAxeThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="3" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec HoeThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemHoeThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="2" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec HelmThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemHelmetThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="5" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec PlateThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemChestplateThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="8" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec LegginsThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemLeggingsThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="7" exp="0.1"/>
+      </output>
+    </recipe>
+  
+    <recipe name="Dec BootsThaumium" energyCost="4000">
+      <input>
+        <itemStack modID="Thaumcraft" itemName="ItemBootsThaumium"/>
+      </input>
+      <output>
+        <itemStack modID="Thaumcraft" itemName="ItemResource" itemMeta="2" number="4" exp="0.1"/>
+      </output>
+    </recipe>
+  
+  <recipeGroup/>
+  
+  <vanillaFurnaceRecipes enabled="false"/>
+  
+</AlloySmelterRecipes>
+
+
