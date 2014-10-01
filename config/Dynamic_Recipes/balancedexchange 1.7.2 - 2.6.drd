@@ -16,73 +16,166 @@
 # You can have empty spaces in your pattern by using 0, so the recipe for a torch would be represented as minecraft:stick:0 + minecraft:coal:0 > 4xminecraft:torch:0 | 1020
 # Any recipe can be disabled (including vanilla recipes and most recipes from other mods) by beginning a recipe definition with a ! symbol
 
-1xbalancedexchange:amulet:* + 1xminecraft:wool:13 > minecraft:dye:2
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:10 > minecraft:dye:5
-
-1xbalancedexchange:amulet:* + 1xminecraft:iron_ingot:* > 10xbalancedexchange:reactivity_block:0
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:8 > minecraft:dye:7
-
-minecraft:iron_ingot:* + balancedexchange:reactivity_block:* + minecraft:ender_pearl:* > balancedexchange:core_upgrade:0 | 121232121
-
 minecraft:iron_ingot:* + minecraft:bucket:* + minecraft:lava_bucket:* + minecraft:ender_pearl:* + minecraft:water_bucket:* + minecraft:dirt:* > balancedexchange:amulet:0 | 121345161
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:1 > minecraft:dye:14
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:9 > minecraft:dye:6
-
-1xbalancedexchange:amulet:* + 8xminecraft:iron_ingot:* > minecraft:gold_ingot:0
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:4 > minecraft:dye:11
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:5 > minecraft:dye:10
-
-1xbalancedexchange:amulet:* + 1xminecraft:gold_ingot:* > 8xminecraft:iron_ingot:0
-
-1xbalancedexchange:amulet:* + 8xminecraft:log:* > minecraft:iron_ingot:0
-
-minecraft:gold_ingot:* + minecraft:bucket:* + minecraft:lava_bucket:* + minecraft:ender_eye:* + minecraft:water_bucket:* + minecraft:dirt:* > balancedexchange:amulet_restorer:0 | 121345161
-
-1xbalancedexchange:amulet:* + 4xminecraft:diamond:* > balancedexchange:stability_block:0
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:7 > minecraft:dye:8
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:14 > minecraft:dye:1
-
-1xbalancedexchange:amulet:* + 1xbalancedexchange:stability_block:* > 4xminecraft:diamond:0
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:15 > minecraft:dye:0
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:11 > minecraft:dye:4
 
 balancedexchange:stability_block:* + minecraft:hopper:* + balancedexchange:transmutation_chest:* > balancedexchange:precharger_upgrade:0 | 001232220
 
 balancedexchange:reactivity_block:* + balancedexchange:stability_block:* > balancedexchange:chain_upgrade:0 | 121212121
 
-1xbalancedexchange:amulet:* + 1xminecraft:diamond:* > 4xminecraft:gold_ingot:0
-
 balancedexchange:stability_block:* + balancedexchange:reactivity_block:* > balancedexchange:area_upgrade:0 | 121212121
-
-1xbalancedexchange:amulet:* + 1xminecraft:wool:6 > minecraft:dye:9
 
 balancedexchange:reactivity_block:* + balancedexchange:stability_block:* > balancedexchange:productivity_upgrade:0 | 111121111
 
-minecraft:planks:* + balancedexchange:amulet:* > balancedexchange:transmutation_chest:0 | 111121111
-
-1xbalancedexchange:amulet:* + 4xminecraft:gold_ingot:* > minecraft:diamond:0
-
-1xbalancedexchange:amulet:* + 8xminecraft:log2:* > minecraft:iron_ingot:0
+minecraft:iron_ingot:* + balancedexchange:reactivity_block:* + minecraft:ender_pearl:* > balancedexchange:core_upgrade:0 | 121232121
 
 balancedexchange:reactivity_block:* + minecraft:glass:* + balancedexchange:stability_block:* + minecraft:ender_pearl:* + balancedexchange:amulet:* > balancedexchange:range_upgrade:0 | 121343151
 
 balancedexchange:stability_block:* + minecraft:ender_pearl:* + balancedexchange:reactivity_block:* > balancedexchange:surveyor_upgrade:0 | 121313323
 
-1xbalancedexchange:amulet:* + 1xminecraft:wool:2 > minecraft:dye:13
+minecraft:planks:* + balancedexchange:amulet:* > balancedexchange:transmutation_chest:0 | 111121111
+
+minecraft:gold_ingot:* + minecraft:bucket:* + minecraft:lava_bucket:* + minecraft:ender_eye:* + minecraft:water_bucket:* + minecraft:dirt:* > balancedexchange:amulet_restorer:0 | 121345161
+
+1xbalancedexchange:amulet:* + 1xminecraft:iron_ingot:* > 10xbalancedexchange:reactivity_block:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:diamond:* > balancedexchange:stability_block:0
+
+1xbalancedexchange:amulet:* + 1xbalancedexchange:stability_block:* > 4xminecraft:diamond:0
+
+# Dye
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:15 > minecraft:dye:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:14 > minecraft:dye:1
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:13 > minecraft:dye:2
 
 1xbalancedexchange:amulet:* + 1xminecraft:wool:12 > minecraft:dye:3
 
-1xbalancedexchange:amulet:* + 1xminecraft:wool:0 > minecraft:dye:15
+1xbalancedexchange:amulet:* + 1xminecraft:wool:11 > minecraft:dye:4
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:10 > minecraft:dye:5
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:9 > minecraft:dye:6
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:8 > minecraft:dye:7
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:7 > minecraft:dye:8
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:6 > minecraft:dye:9
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:5 > minecraft:dye:10
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:4 > minecraft:dye:11
 
 1xbalancedexchange:amulet:* + 1xminecraft:wool:3 > minecraft:dye:12
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:2 > minecraft:dye:13
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:1 > minecraft:dye:14
+
+1xbalancedexchange:amulet:* + 1xminecraft:wool:0 > minecraft:dye:15
+
+# Exchange Vanilla Transformation
+
+1xbalancedexchange:amulet:* + 2xminecraft:log:* > minecraft:obsidian:0
+
+1xbalancedexchange:amulet:* + 2xminecraft:log2:* > minecraft:obsidian:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:obsidian:0 > minecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 8xminecraft:iron_ingot:0 > minecraft:gold_ingot:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:gold_ingot:0 > 8xminecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:gold_ingot:0 > minecraft:diamond:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:diamond:0 > 4xminecraft:gold_ingot:0
+
+1xbalancedexchange:amulet:* + 2xminecraft:diamond:0 > minecraft:emerald:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:emerald:0 > 2xminecraft:diamond:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:coal:0 > 2xminecraft:redstone:0
+
+1xbalancedexchange:amulet:* + 7xminecraft:coal:0 > minecraft:dye:4
+
+1xbalancedexchange:amulet:* + 1xminecraft:redstone_block:0 > minecraft:glowstone_dust:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:glowstone_dust:0 > minecraft:redstone_block:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:glowstone:0 > 4xminecraft:redstone_block:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:redstone_block:0 > minecraft:glowstone:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:iron_ingot:0 > minecraft:ender_pearl:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:ender_pearl:0 > 4xminecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 3xminecraft:iron_ingot:0 > minecraft:quartz:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:quartz:0 > 3xminecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:clay:0 > minecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:iron_ingot:0 > 4xminecraft:clay:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:clay_ball:0 > 4xminecraft:gravel:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:gravel:0 > minecraft:clay_ball:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:gravel:0 > 4xminecraft:dirt:0
+
+1xbalancedexchange:amulet:* + 4xminecraft:gravel:0 > minecraft:gravel:0
+
+# Exchange Vanilla Restoration
+
+1xbalancedexchange:amulet:* + 2xminecraft:blaze_powder:0 > minecraft:blaze_rod:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:clay:0 > 4xminecraft:clay_ball:0
+
+1xbalancedexchange:amulet:* + 1xminecraft:brick_block:0 > 4xminecraft:brick:0
+
+
+# Exchange TE4 Transformation
+
+1xbalancedexchange:amulet:* + 3xThermalFoundation:material:67 > ThermalFoundation:material:71
+
+1xbalancedexchange:amulet:* + 3xThermalFoundation:material:64 > ThermalFoundation:material:65
+
+1xbalancedexchange:amulet:* + 1xThermalFoundation:material:71 > 3xThermalFoundation:material:67
+
+1xbalancedexchange:amulet:* + 2xThermalFoundation:material:67 > ThermalFoundation:material:66
+
+1xbalancedexchange:amulet:* + 2xThermalFoundation:material:65 > 2xThermalFoundation:material:73
+
+1xbalancedexchange:amulet:* + 2xThermalFoundation:material:73 > 2xThermalFoundation:material:65
+
+1xbalancedexchange:amulet:* + 1xThermalFoundation:material:65 > 3xThermalFoundation:material:64
+
+1xbalancedexchange:amulet:* + 1xThermalFoundation:material:66 > 2xThermalFoundation:material:67
+
+# Exchange AE2 Transformation
+
+1xbalancedexchange:amulet:* + 2xminecraft:iron_ingot:0 > appliedenergistics2:item.ItemMultiMaterial:0
+
+1xbalancedexchange:amulet:* + 1xappliedenergistics2:item.ItemMultiMaterial:0 > 2xminecraft:iron_ingot:0
+
+1xbalancedexchange:amulet:* + 4xappliedenergistics2:item.ItemMultiMaterial:0 > 4xappliedenergistics2:item.ItemMultiMaterial:2
+
+1xbalancedexchange:amulet:* + 4xappliedenergistics2:item.ItemMultiMaterial:2 > 4xappliedenergistics2:item.ItemMultiMaterial:0
+
+# Exchange TC4 Transformation
+
+1xbalancedexchange:amulet:* + 1xThaumcraft:ItemShard:0 > Thaumcraft:ItemShard:1
+
+1xbalancedexchange:amulet:* + 1xThaumcraft:ItemShard:1 > Thaumcraft:ItemShard:2
+
+1xbalancedexchange:amulet:* + 1xThaumcraft:ItemShard:2 > Thaumcraft:ItemShard:3
+
+1xbalancedexchange:amulet:* + 1xThaumcraft:ItemShard:3 > Thaumcraft:ItemShard:0
+
+1xbalancedexchange:amulet:* + 1xThaumcraft:ItemShard:4 > Thaumcraft:ItemShard:5
+
+1xbalancedexchange:amulet:* + 1xThaumcraft:ItemShard:5 > Thaumcraft:ItemShard:4
 
