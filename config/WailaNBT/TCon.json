@@ -1,0 +1,21 @@
+{
+    ".*": {
+        "TConstruct.Smeltery": {
+            "Layers":"Layers",
+            "MaxLiquid":"Max Liquid"
+        },
+        "CastingTable": {
+            "castingDelay":"Casting Delay"
+        },
+        "CastingBasin": {
+            "castingDelay":"Casting Delay"
+        },
+        "TConstruct.Furnace": {
+            "Fuel":"Remaining Fuel"
+        },
+        "FrypanLogic": {
+            "Fuel":"Remaining Fuel"
+        }
+    }
+}
+

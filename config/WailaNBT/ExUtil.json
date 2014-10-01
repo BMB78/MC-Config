@@ -1,0 +1,10 @@
+{
+    ".*": {
+        "drum": {
+            "tank>>>Amount":"Amount",
+            "tank>>>capacity":"Capacity",
+            "tank>>>FluidName":"Fluid"
+        }
+    }
+}
+
