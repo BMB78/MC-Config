@@ -10,13 +10,6 @@
         "BlockInterface": {
             "Priority":"Priority"
         },
-        "BlockInterface": {
-            "Priority":"Priority"
-        },
-        "BlockVibrationChamber": {
-            "burnSpeed":"Burn Speed",
-            "burnTime":"Burn Time"
-        },
         "BlockVibrationChamber": {
             "burnSpeed":"Burn Speed",
             "burnTime":"Burn Time"
