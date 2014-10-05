@@ -1,0 +1,9 @@
+{
+    ".*":{
+        "drum":{
+            "tank>>>Amount":"function p(v){var r = (v);return '\u00A7fFluid Amount: '+r+' / 256000mB'};",
+            "tank>>>FluidName":"function p(v){r=v.substring(0,1).toUpperCase()+v.substring(1);return '\u00A7fFluid: ' +r};"
+        }
+    }
+}
+

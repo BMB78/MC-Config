@@ -1,0 +1,40 @@
+{
+    ".*":{
+        "thermalexpansion.*":{
+            "Fuel":"function p(v){var r = (v);return '\u00A7fFuel: '+r};",
+            "ProcRem":"function p(v){var r = (v);return '\u00A7fRemain Time: '+r+' ticks'};"
+        },
+        "thermalexpansion.DynamoSteam":{
+            "SteamTank>>>Amount":"function p(v){var r = (v);return '\u00A7fSteam Amount: '+r+' mB'};",
+            "WaterTank>>>Amount":"function p(v){var r = (v);return '\u00A7fWater Amount: '+r+' mB'};"
+        },
+        "thermalexpansion.DynamoCompression":{
+            "FuelTank>>>Amount":"function p(v){var r = (v);return '\u00A7fFuel Amount: '+r+' mB'};",
+            "CoolantTank>>>Amount":"function p(v){var r = (v);return '\u00A7fCoolant Amount: '+r+' mB'};"
+        },
+        "thermalexpansion.Sponge":{
+            "FluidName":"function p(v){r=v.substring(0,1).toUpperCase()+v.substring(1);return '\u00A7fFluid: ' +r}",
+            "Amount":"function p(v){var r = (v);return '\u00A7fAmount: '+r+' mB'};"
+        },
+        "thermalexpansion.Precipitator":{
+            "Amount":"function p(v){var r = (v);return '\u00A7fFluid Amount: '+r+' mB'};"
+        },
+        "thermalexpansion.Extruder":{
+            "ColdTank>>>Amount":"function p(v){var r = (v);return '\u00A7fWater Amount: '+r+' mB'};",
+            "HotTank>>>Amount":"function p(v){var r = (v);return '\u00A7fLava Amount: '+r+' mB'};"
+        },
+        "thermalexpansion.Accumulator":{
+            "Amount":"function p(v){var r = (v);return '\u00A7fWater Amount: '+r+' mB'};"
+        },
+        "thermalexpansion.Assembler":{
+            "Amount":"function p(v){var r = (v);return '\u00A7fFluid Amount: '+r+' mB'};"
+        },
+        "thermalexpansion.Activator":{
+            "LeftClick":"\u00A7fLeft Click",
+            "Sneaking":"\u00A7fSneaking"
+        },
+        "thermalexpansion.Tesseract":{
+            "Frequency":"\u00A7fFrequency"
+        }
+    }
+}

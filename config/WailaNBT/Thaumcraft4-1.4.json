@@ -1,0 +1,24 @@
+{
+    ".*":{
+        "TileInfusionStone":{
+            "instability":"\u00A7fInstability: %.0f"
+        },
+        "TileAlchemyFurnace":{
+            "BurnTime":"function p(v){var r = (v/20);return '\u00A7fBurn Time Left: '+r.toFixed(0)+' Sec'};",
+            "Vis":"\u00A7fVis Amount Total"
+        },
+        "TileSiphon":{
+            "amount":"\u00A7fVis Amount Total"
+        },
+        "TileTube.*":{
+            "amount":"Vis Amount"
+        },
+        "TileCrucible":{
+            "Amount":"function p(v){var r = (v);return '\u00A7fWater Amount: '+r+' mB'};",
+            "Heat":"function p(v){var r = (v);return '\u00A7fHeat: '+r};"
+        },
+        "TileJarBrain":{
+            "XP":"function p(v){var r = (v);return 'XP Storage  '+r};"
+        }
+    }
+}
